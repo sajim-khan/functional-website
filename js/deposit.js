@@ -1,5 +1,4 @@
 
-
 document.getElementById("btn-deposit").addEventListener("click", function() {
     const newDepositAmount = getInputFieldValueById('deposit-field');
     const previousDepositTotal = getTextElementValueById('deposit-total');
